@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Project Management Dashboard</title>
+</head>
+<body>
+  <div id="container">
+    <h1>Project Management Dashboard</h1>
+    
+    <div >
+      <label for="projectName">Project Name:</label>
+      <input type="text" id="projectName">
+      <button onclick="createProject()" style="background-color: blue;">Create Project</button>
+    </div>
+
+    <div>
+      <h2>List of Projects</h2>
+      <ul id="projectList"></ul>
+    </div>
+  </div>
+
+  <script src="/dist/project-management.js"></script>
+</body>
+</html>

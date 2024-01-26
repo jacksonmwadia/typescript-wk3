@@ -1,0 +1,46 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  
+  #container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-image: linear-gradient(to bottom right, rgb(71, 94, 141), rgb(184, 224, 196));
+    padding: 20px;
+    border-radius: 7px;
+    color: white;
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  button {
+    cursor: pointer;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    background-color: red;
+    border-color: transparent;
+    color: white;
+
+  }
+  ul{
+    list-style: numeric;
+    gap: 10px;
+    margin: 10px;
+    border: 1px solid;
+    color: black;
+    background-color: rgb(247, 242, 242);
+    border-color: transparent;
+    
+  }
+  input{
+    border-color: transparent;
+    width: 270px;
+    
+  }
